@@ -1,0 +1,6 @@
+version: '3' 
+services: 
+  service1: 
+    container_name: service_1
+    image: busybox 
+    command: sleep infinity

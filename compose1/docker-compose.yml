@@ -1,0 +1,11 @@
+version: '3' 
+services: 
+  service1: 
+    container_name: separate1
+    image: busybox 
+    command: sleep infinity
+
+networks: 
+  default: 
+    external: true
+    name: external-example 
